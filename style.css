@@ -10,7 +10,6 @@
   --ocean-light: #eaf4fb;
   --sand: #f9f7f2;
   --text: #24313c;
-  --toss: #0064ff;
 }
 
 html {
@@ -167,10 +166,6 @@ body {
   border: 2px solid var(--ocean-dark);
 }
 
-.btn-toss {
-  background: var(--toss);
-  color: #fff;
-}
 
 /* ===== 목표 ===== */
 .values-section {
