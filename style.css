@@ -516,38 +516,33 @@ body {
 }
 
 
-/* ===== 제목 배지 (네이비 원형/알약) ===== */
+/* ===== 제목 배지 (옅은 파란색 원형 + 네이비 글자) ===== */
 .title-badge {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: var(--ocean-dark);
-  color: #1e6fa8;
+  background: var(--ocean-light);   /* 옅은 파란색 배경으로 변경 */
+  color: var(--ocean-dark);
   padding: 20px 40px;
   border-radius: 999px;
   margin: 0 auto 40px;
 }
 
 .title-badge .section-title {
-  color: #0a3d62;
+  color: var(--ocean-dark);   /* 네이비 글자 */
   font-weight: 800;
   margin: 0;
   font-size: clamp(20px, 3vw, 28px);
 }
 
 .title-badge .section-sub {
-  color: #1e6fa8;
+  color: var(--ocean);   /* 부제목은 살짝 밝은 파란색 톤 유지 */
   font-weight: 400;
   font-size: 13px;
   margin: 4px 0 0;
 }
 
-.section,
-.section-alt,
-.values-section {
-  text-align: center;
-}
 
 .social-links {
   display: flex;
