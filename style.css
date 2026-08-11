@@ -523,21 +523,21 @@ body {
   align-items: center;
   justify-content: center;
   background: var(--ocean-dark);
-  color: #fff;
+  color: #1e6fa8;
   padding: 20px 40px;
   border-radius: 999px;
   margin: 0 auto 40px;
 }
 
 .title-badge .section-title {
-  color: #fff;
+  color: #0a3d62;
   font-weight: 800;
   margin: 0;
   font-size: clamp(20px, 3vw, 28px);
 }
 
 .title-badge .section-sub {
-  color: #eaf4fb;
+  color: #1e6fa8;
   font-weight: 400;
   font-size: 13px;
   margin: 4px 0 0;
