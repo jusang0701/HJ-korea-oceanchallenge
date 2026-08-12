@@ -405,16 +405,22 @@ body {
 
 /* ===== 제목 배지 ===== */
 .title-badge {
-  width: 230px;
-  height: 230px;
+  width: min(92%, 620px);
+  min-height: 130px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
   background: var(--ocean-light);
   color: var(--ocean-dark);
-  border-radius: 50%;
+
+  border-radius: 28px;
+
   margin: 0 auto 40px;
+  padding: 24px 30px;
+
   text-align: center;
 }
 
@@ -422,14 +428,21 @@ body {
   color: var(--ocean-dark);
   font-weight: 800;
   margin: 0;
-  font-size: clamp(20px, 3vw, 28px);
+
+  font-size: clamp(20px, 3vw, 30px);
+  line-height: 1.2;
+
+  white-space: nowrap;
 }
 
 .title-badge .section-sub {
   color: var(--ocean);
   font-weight: 400;
-  font-size: 13px;
-  margin: 4px 0 0;
+
+  font-size: 17px;
+  line-height: 1.2;
+
+  margin: 10px 0 0;
 }
 
 /* ===== 소셜 링크 ===== */
@@ -532,10 +545,22 @@ body {
   }
 
   .title-badge {
-    width: 140px;
-    height: 140px;
-    margin-bottom: 30px;
-  }
+  width: 92%;
+  min-height: 100px;
+  padding: 18px 15px;
+  margin-bottom: 30px;
+  border-radius: 22px;
+}
+
+.title-badge .section-title {
+  font-size: clamp(18px, 5vw, 24px);
+  white-space: nowrap;
+}
+
+.title-badge .section-sub {
+  font-size: 16px;
+  margin-top: 8px;
+}
 
   .gallery-grid img {
     height: 180px;
